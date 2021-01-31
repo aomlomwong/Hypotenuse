@@ -15,7 +15,7 @@
             android:layout_height="wrap_content"
             android:text="Pythagoream Theorem : solve for hypotenuse"
             android:gravity="center"
-            android:textSize="16dp"
+            android:textSize="14dp"
             />
         
     </LinearLayout>
@@ -112,6 +112,7 @@
            android:layout_height="60dp"
            android:text="SOLVE"
            android:textSize="16dp"
+           android:layout_marginTop="10dp"
 
            >
 
