@@ -20,11 +20,11 @@ class MainActivity : AppCompatActivity() {
             var bNum:Float = b.text.toString().toFloat()
 
             var totalNum:Float = ((aNum*aNum)+(bNum*bNum))
-            var lastNum: Double = Math.pow
+            var lastNum: Double = Math.sqrt(totalNum.toDouble())
 
 
 
-            total.text =  lastNum.toString()
+            total.text = "C =" + lastNum.toString()
 
         }
 
